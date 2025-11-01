@@ -4,19 +4,21 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background: linear-gradient(90deg,#0a7cda,#0400e0);
+    background: linear-gradient(90deg, #3C467B, #50589C, #636CCB, #6E8CFB);
 }
 a{
     text-decoration: none;
-    color: aliceblue;
+    color: #fff;
 }
 nav{
-    color: aliceblue;
-    background: #0400e0;
+    color: #fff;
+    background: linear-gradient(90deg, #0C2B4E, #1A3D64, #1D546C);
     text-wrap: wrap;
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid ;
+    box-shadow: -2px 5px 40px #ada4e0ff;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 ul{
     display: flex;
@@ -24,7 +26,6 @@ ul{
     flex-wrap: wrap;
     gap: 50px;
     padding: 30px;
-
 }
 .home{
     font-size: 2.5em;
