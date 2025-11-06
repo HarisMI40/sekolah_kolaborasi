@@ -1,16 +1,19 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
+
+body {
     background: linear-gradient(90deg, #3C467B, #50589C, #636CCB, #6E8CFB);
 }
-a{
+
+a {
     text-decoration: none;
     color: #fff;
 }
-nav{
+
+nav {
     color: #fff;
     background: linear-gradient(90deg, #0C2B4E, #1A3D64, #1D546C);
     text-wrap: wrap;
@@ -20,32 +23,62 @@ nav{
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-ul{
+
+ul {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 50px;
     padding: 30px;
 }
-.home{
+
+.home {
     font-size: 2.5em;
     font-weight: bold;
 }
 
-/* Footer styles appended - does not modify navbar */
-.site-footer{
-        margin-top:24px;
-        padding:18px 20px;
-        background: rgba(0,0,0,0.15);
-        border-radius:8px;
-        color: #fff;
+.conten{
+    height: 100vh;
 }
-.footer-inner{max-width:1100px;margin:0 auto;text-align:center}
-.footer-brand{font-weight:700;font-size:1.1rem;margin-bottom:6px}
-.footer-desc{font-size:0.95rem;opacity:0.95;margin-bottom:6px}
-.footer-copy{font-size:0.85rem;opacity:0.85}
 
-@media (max-width:600px){
-    .footer-inner{padding:8px}
-    .footer-desc{font-size:0.9rem}
+/* Footer styles appended - does not modify navbar */
+.site-footer {
+    margin-top: 24px;
+    padding: 18px 20px;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    color: #fff;
+}
+
+.footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.footer-brand {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 6px
+}
+
+.footer-desc {
+    font-size: 0.95rem;
+    opacity: 0.95;
+    margin-bottom: 6px
+}
+
+.footer-copy {
+    font-size: 0.85rem;
+    opacity: 0.85
+}
+
+@media (max-width:600px) {
+    .footer-inner {
+        padding: 8px
+    }
+
+    .footer-desc {
+        font-size: 0.9rem
+    }
 }
