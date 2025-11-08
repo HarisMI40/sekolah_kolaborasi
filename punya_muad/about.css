@@ -5,6 +5,9 @@
 }
 body{
     background: linear-gradient(90deg, #3C467B, #50589C, #636CCB, #6E8CFB);
+    background: url('bgimage.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 a{
     text-decoration: none;
@@ -20,7 +23,7 @@ nav{
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-ul{
+.navbar{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -30,4 +33,75 @@ ul{
 .home{
     font-size: 2.5em;
     font-weight: bold;
+}
+
+/* hero-strart */
+.bg img{
+    
+}
+.hero{
+    display: flex;
+    color: aliceblue;
+    text-align: justify;
+    font-size: 1.5em;
+}
+.hero-left{
+    width: 20%;
+    height: 100%;
+    
+}
+.hero-center{
+    width: 60%;
+    height: 100%;
+    
+}
+.hero-right{
+    width: 20%;
+    height: 100%;
+   
+}
+
+/* hero-end */
+
+/* Footer styles appended - does not modify navbar */
+.site-footer {
+    margin-top: 24px;
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+}
+
+.footer-inner {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: start
+}
+
+.footer-brand {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 6px
+}
+
+.footer-desc {
+    font-size: 0.95rem;
+    opacity: 0.95;
+    margin-bottom: 6px
+}
+
+.footer-copy {
+    font-size: 0.85rem;
+    opacity: 0.85
+}
+
+@media (max-width:600px) {
+    .footer-inner {
+        padding: 8px
+    }
+
+    .footer-desc {
+        font-size: 0.9rem
+    }
 }

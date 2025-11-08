@@ -55,14 +55,12 @@ ul {
     color: #fff;
     text-shadow: 0px 0px 5px #000;
     gap: 50px;
+    
 }
 
 
 
-/* .heading h1{
-    border-bottom: 4px solid #3C467B;
-    
-} */
+
 
 /* Footer styles appended - does not modify navbar */
 .site-footer {
